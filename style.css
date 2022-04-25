@@ -1,0 +1,90 @@
+*{box-sizing: border-box;}
+
+body {
+
+              background-image: url("background.jpg");
+              background-size: cover;
+}
+
+.Transparent-Square {
+
+                    width: 1000px;
+                    height: 650px;
+                    margin: auto;
+                    border: 10px rgba(16, 16, 16, .4);
+                    background-color: rgba(16, 16, 16, .4);
+                    border-radius: 10px 10px 10px 10px;
+}
+
+header {text-align: center;}
+
+#Logo-Image {width: 200px;}
+
+.Header-Text {
+
+              font-size: 28px;
+              color: #00cc00;
+              margin-top: 5px;
+              margin-bottom: 5px;
+}
+
+nav {
+
+      height: 40px;
+      width: 55%;
+      background-color: #00ff00;
+      text-align: center;
+      padding-top: 10px;
+      margin: auto;
+}
+
+main {color: white}
+
+section {
+
+          height: 150px;
+          width:  55%;
+          margin: auto;
+}
+
+h2 {
+
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+span {
+
+        font-size: 17px;
+        margin-bottom: 5px;
+        display: block;
+}
+
+
+.RoundedBar-Orange {
+
+                      height: 30px;
+                      width: 60%;
+                      background-color: #ffb366;
+                      border-radius: 10px 10px 10px 10px;
+                      display: inline-block;
+}
+
+.RoundedBar-Green {
+
+                    height: 30px;
+                    width: 105%;
+                    background-color: #00cc00;
+                    border-radius: 10px 10px 10px 10px;
+                    display: inline-block;
+}
+
+.RoundedBar-Red {
+
+                  height: 30px;
+                  width: 25%;
+                  background-color: #cc0044;
+                  border-radius: 10px 10px 10px 10px;
+                  display: inline-block;
+}
